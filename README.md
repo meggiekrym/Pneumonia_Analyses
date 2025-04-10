@@ -16,9 +16,9 @@ We used two publicly available datasets from [Kaggle](https://www.kaggle.com):
     - Grayscale images, size 128×128  
     - Imbalanced classes
 
-    > Note: This dataset originally comes with separate `train/` and `test/` folders.  
-    > However, to ensure a clean and consistent split, we **combined the original train and test subsets** for each class (`NORMAL` and `PNEUMONIA`) into a single dataset.  
-    > This allowed us to define our own training, validation, and test splits and avoid potential issues where the separation might have been pre-determined or biased. 
+     Note: This dataset originally comes with separate `train/` and `test/` folders.  
+     However, to ensure a clean and consistent split, we **combined the original train and test subsets** for each class (`NORMAL` and `PNEUMONIA`) into a single dataset.  
+     This allowed us to define our own training, validation, and test splits and avoid potential issues where the separation might have been pre-determined or biased. 
 
   2. **External Validation Set**  
     - 180 images (90 normal, 90 pneumonia)
