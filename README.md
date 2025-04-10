@@ -97,7 +97,7 @@ We implemented and evaluated:
 
   1. Clone the repo:
     ```bash
-    git clone https://github.com/your-repo-link.git
+    git clone https://github.com/meggiekrym/Pneumonia_Analyses.git
     cd Pneumonia_Analyses
     ```
   2. Install dependencies:
@@ -106,16 +106,13 @@ We implemented and evaluated:
     ```
   3. Run the Jupyter notebook:
     ```bash
-    jupyter notebook xray_classification.ipynb
+    jupyter notebook xray_classification_model.ipynb
     ```
   4. Evaluate the model:
     ```bash
     jupyter notebook evaluate.py
     ```
   5. For more details, check the `src/` folder for the code and `models/` for pre-trained models.
-  6. For the dataset, download it from the links provided above and place it in the `data/` folder.
-  7. Make sure to adjust the paths in the code if necessary.
-
 --- 
 
 ## Team Members & Contributions
@@ -124,4 +121,4 @@ We implemented and evaluated:
   -    Data preprocessing, CNN and ResNet18, evaluation pipeline, GitHub structure, report writing
 
   Alexandra Schibli 
-  -    Custom CNN,Data augmentation , evaluation pipeline, visualizations , report writing
+  -    Custom CNN, Data augmentation , evaluation pipeline, visualizations , report writing
