@@ -96,22 +96,22 @@ We implemented and evaluated:
 ## Installation and Usage
 
   1. Clone the repo:
-    ```bash
-    git clone https://github.com/meggiekrym/Pneumonia_Analyses.git
-    cd Pneumonia_Analyses
-    ```
+```bash
+git clone https://github.com/meggiekrym/Pneumonia_Analyses.git
+cd Pneumonia_Analyses
+```
   2. Install dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
+```bash
+pip install -r requirements.txt
+```
   3. Run the Jupyter notebook:
-    ```bash
-    jupyter notebook xray_classification_model.ipynb
-    ```
+ ```bash
+jupyter notebook xray_classification_model.ipynb
+```
   4. Evaluate the model:
-    ```bash
-    jupyter notebook evaluate.py
-    ```
+```bash
+jupyter notebook evaluate.py
+```
   5. For more details, check the `src/` folder for the code and `models/` for pre-trained models.
 --- 
 
